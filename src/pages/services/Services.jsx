@@ -16,7 +16,7 @@ const infoTitle4 = 'Servicio 4';
 const infoImage4 =
   'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/2966289/999852_868404.png';
 const text =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet ornare neque. Nulla condimentum vel augue at tincidunt. Nulla nunc purus, fermentum at sapien quis, volutpat venenatis tellus. Fusce eget bibendum neque, a pharetra sapien. Sed porttitor eu ex ut bibendum. Sed ac pellentesque nisl, in faucibus magna. Praesent eget luctus metus, sed dignissim orci. Donec eleifend egestas pulvinar. Nulla facilisi. Aliquam pulvinar mauris mauris, sollicitudin cursus dolor pharetra eu. Aenean tincidunt lacus vel viverra tristique. Fusce ac scelerisque purus, vitae gravida ligula. Nunc at scelerisque justo. Sed massa velit, pellentesque non ex ut, lobortis auctor magna. Mauris non egestas metus. Praesent in augue ut est efficitur interdum vel ac velit.';
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at enim vitae velit interdum tincidunt. Integer vitae feugiat risus, sit amet fringilla tortor.';
 const welcomeHeader = 'Cartera de servicios';
 const welcomeImage =
   'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/2966289/393310_27097.png';

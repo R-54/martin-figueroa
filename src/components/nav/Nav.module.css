@@ -1,6 +1,6 @@
 .nav {
   position: absolute;
-  width: 100%;
+  min-width: 100%;
   height: 95px;
   font-size: 14px;
   display: flex;
@@ -9,6 +9,7 @@
   align-items: center;
   background-color: transparent;
   color: #fff;
+  z-index: 1;
 }
 
 .logo {
@@ -74,7 +75,7 @@
 
 .menuBlock {
   position: absolute;
-  height: calc(100vh - 95px);
+  height: calc(100% - 95px);
   width: 50%;
   right: 0;
   top: 95px;
