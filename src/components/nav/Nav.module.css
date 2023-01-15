@@ -1,0 +1,162 @@
+.nav {
+  position: absolute;
+  width: 100%;
+  height: 95px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sections {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.section {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+.section:hover {
+  text-decoration: underline;
+}
+
+.social {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+.icon {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+}
+
+.menuButton {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+  font-size: 40px;
+}
+
+.menuBlock {
+  position: absolute;
+  height: calc(100vh - 95px);
+  width: 50%;
+  right: 0;
+  top: 95px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.linksBlock {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.socialMediaBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+.menuBlockLink {
+  padding-bottom: 40px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sociaBlock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.socialIcon {
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.logoBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .sections {
+    display: none;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .logo {
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+  .menu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+}

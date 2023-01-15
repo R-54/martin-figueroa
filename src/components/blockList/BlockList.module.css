@@ -1,0 +1,41 @@
+.list {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.element {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: #fff;
+}
+
+.title {
+  font-size: 48px;
+}
+
+.text {
+  font-size: 18px;
+  padding: 30px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .list {
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .element {
+    height: 100vh;
+  }
+}

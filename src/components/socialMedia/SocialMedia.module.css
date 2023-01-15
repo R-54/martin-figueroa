@@ -1,0 +1,27 @@
+.social {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.icon {
+  padding-right: 50px;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .social {
+    height: 100vh;
+    justify-content: space-evenly;
+  }
+
+  .icon {
+    font-size: 70px;
+    padding: 0;
+  }
+}
