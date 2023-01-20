@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './SocialMedia.module.css';
 
 import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const SocialMedia = ({ image }) => {
@@ -13,9 +12,6 @@ const SocialMedia = ({ image }) => {
       </div>
       <div className={styles.icon}>
         <FacebookIcon fontSize='inherit' />
-      </div>
-      <div className={styles.icon}>
-        <InstagramIcon fontSize='inherit' />
       </div>
     </div>
   );

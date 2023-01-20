@@ -10,6 +10,7 @@
   background-color: transparent;
   color: #fff;
   z-index: 1;
+  background-color: #fff;
 }
 
 .logo {
@@ -33,11 +34,12 @@
   align-items: center;
   justify-content: space-between;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .section {
   cursor: pointer;
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -53,7 +55,7 @@
   align-items: center;
   justify-content: flex-end;
   padding-right: 50px;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .icon {
@@ -85,6 +87,10 @@
   justify-content: space-between;
   padding-left: 20px;
   padding-top: 40px;
+}
+
+.menuBlock > svg {
+  color: #000;
 }
 
 .linksBlock {
@@ -139,6 +145,10 @@
 
 @media only screen and (max-width: 767px) {
   /* phones */
+  .nav {
+    background-color: #fff;
+  }
+
   .sections {
     display: none;
   }

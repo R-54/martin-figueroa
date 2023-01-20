@@ -11,45 +11,41 @@
   color: #fff;
 }
 
-.left_align {
-  align-items: flex-start;
-}
-
-.right_align {
-  align-items: flex-end;
-}
-
 .header {
-  font-size: 70px;
+  width: 50%;
+  font-size: 36px;
   padding: 0 50px;
 }
 
 .content {
-  width: 80%;
-  text-align: justify;
+  width: 50%;
   font-size: 18px;
   padding: 0 50px;
+  text-align: justify;
+  white-space: pre-wrap;
 }
 
 @media only screen and (max-width: 767px) {
   /* phones */
   .header {
-    font-size: 40px;
+    width: 80%;
+    font-size: 36px;
     font-weight: bold;
     padding: 0;
     text-align: center;
+    margin-top: 60px;
   }
 
   .content {
+    width: 80%;
     padding: 0 5px;
     align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 60px;
   }
 
-  .left_align {
-    align-items: center;
-  }
-  
-  .right_align {
+  .info {
     align-items: center;
   }
 }

@@ -14,9 +14,7 @@ const Info = ({
   return (
     <section
       style={{ backgroundImage: `url(${image})` }}
-      className={`${styles.info} ${
-        align === 'left' ? styles.left_align : styles.right_align
-      }`}
+      className={styles.info}
     >
       <h2 className={styles.header}>{title}</h2>
       <p className={styles.content}>{text}</p>

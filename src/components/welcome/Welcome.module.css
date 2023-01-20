@@ -14,9 +14,10 @@
 
 .header {
   text-align: center;
-  font-size: 70px;
+  font-size: 36px;
   font-weight: bold;
   padding: 0 20px;
+  width: 30%;
 }
 
 .content {
@@ -25,8 +26,10 @@
   justify-content: center;
   align-items: center;
   width: 80%;
-  text-align: justify;
+  text-align: center;
   font-size: 18px;
+  width: 30%;
+  padding: 0 20px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -34,5 +37,10 @@
   .header {
     font-size: 40px;
     font-weight: bold;
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
   }
 }
